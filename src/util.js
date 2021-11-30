@@ -10,6 +10,15 @@ const songList = () =>{
             id: uuidv4(),
             active: true,
             color: ['#770F9C','#EC4EB0']
+        },
+        {
+            name: "Call You Mine",
+            cover: "https://firebasestorage.googleapis.com/v0/b/tunite-79921.appspot.com/o/The_Chainsmokers_-_Call_You_Mine.png?alt=media&token=17421fe8-1de2-4c43-9a0a-bbe41cb8cb3c",
+            artist: "Chainsmokers, Babe Rexha",
+            audio: "https://firebasestorage.googleapis.com/v0/b/tunite-79921.appspot.com/o/The-Chainsmokers-Call-You-Mine-Official-Video-ft.-Bebe-Rexha.mp3?alt=media&token=cbf809b5-e966-44a9-92b5-df4cca556f2f",
+            id: uuidv4(),
+            active: false,
+            color: ['#2A2945','#ECCD91']
         }
     ]
 }
