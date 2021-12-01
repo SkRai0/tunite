@@ -4,6 +4,9 @@
     left: 0;
     width: 20rem;
     height: 100%;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: 0.5s ease;
     box-shadow: 2px 2px 50px gray;
     h2{
         padding: 2rem;
@@ -37,4 +40,13 @@
 *{
     scrollbar-width: thin;
     scrollbar-color: rgba(155,155,155,0.5) transparent;
+}
+
+.selected{
+    background-color: rgb(208, 215, 238);
+}
+
+.visible{
+    transform: translateX(0%);
+    opacity: 1;
 }

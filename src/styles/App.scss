@@ -10,10 +10,11 @@ body{
 
 h3,h4{
     font-weight: 400;
-    color: rgb(46, 46, 46)
+    color: rgb(46, 46, 46);
 }
 
 @import './player';
 @import './song';
-@import './library'
+@import './library';
+@import './nav';
 

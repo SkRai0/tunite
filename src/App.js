@@ -2,14 +2,16 @@ import React, { useState , useRef } from "react";
 import './styles/App.scss';
 import Song from "./Components/Song";
 import Player from "./Components/Player";
-import songList from "./util";
+import songList from "./data";
 import Library from "./Components/Library";
+import NavBar from "./Components/nav";
 
 function App() {
 
   const audioRef = useRef(null);
 
-  const [songs, setSong] = useState(songList());
+  const [libVis, setLibVis] = useState(false);
+  const [songs, setSongs] = useState(songList());
   const [currentSong, setCurrentSong] = useState(songs[0]);
   const [isPlaying, setIsPlaying] = useState(false);
   const [songInfo, setSongInfo] = useState({
@@ -25,9 +27,10 @@ function App() {
 
   return (
     <div className="App">
+      <NavBar libVis={libVis} setLibVis={setLibVis} />
       <Song currentSong={currentSong}/>
-      <Player songInfo={songInfo} setSongInfo={setSongInfo} audioRef={audioRef}  isPlaying={isPlaying} setIsPlaying={setIsPlaying} currentSong={currentSong} />
-      <Library isPlaying={isPlaying} audioRef={audioRef} setCurrentSong={setCurrentSong} songs={songs} />
+      <Player setSongs={setSongs} setCurrentSong={setCurrentSong} songs={songs} songInfo={songInfo} setSongInfo={setSongInfo} audioRef={audioRef}  isPlaying={isPlaying} setIsPlaying={setIsPlaying} currentSong={currentSong} />
+      <Library libVis={libVis} setLibVis={setLibVis} setSongs={setSongs} isPlaying={isPlaying} audioRef={audioRef} setCurrentSong={setCurrentSong} songs={songs} />
       <audio onLoadedMetadata={timeChangeHandler} onTimeUpdate={timeChangeHandler} ref={audioRef} src={currentSong.audio}></audio>
     </div>
   );
