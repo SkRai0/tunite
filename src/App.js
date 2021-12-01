@@ -25,13 +25,19 @@ function App() {
       setSongInfo({...songInfo, currentTime:current , duration})
   }
 
+  const songEndHandler = async() =>{
+    let currentIndex = songs.findIndex((so) => so.id === currentSong.id);
+    await setCurrentSong(songs[(currentIndex+1) % songs.length]);
+    if(isPlaying) audioRef.current.play();
+  }
+
   return (
-    <div className="App">
+    <div className={`App ${libVis ? "library-active" : ""}`}>
       <NavBar libVis={libVis} setLibVis={setLibVis} />
       <Song currentSong={currentSong}/>
       <Player setSongs={setSongs} setCurrentSong={setCurrentSong} songs={songs} songInfo={songInfo} setSongInfo={setSongInfo} audioRef={audioRef}  isPlaying={isPlaying} setIsPlaying={setIsPlaying} currentSong={currentSong} />
       <Library libVis={libVis} setLibVis={setLibVis} setSongs={setSongs} isPlaying={isPlaying} audioRef={audioRef} setCurrentSong={setCurrentSong} songs={songs} />
-      <audio onLoadedMetadata={timeChangeHandler} onTimeUpdate={timeChangeHandler} ref={audioRef} src={currentSong.audio}></audio>
+      <audio onEnded={songEndHandler} onLoadedMetadata={timeChangeHandler} onTimeUpdate={timeChangeHandler} ref={audioRef} src={currentSong.audio}></audio>
     </div>
   );
 }

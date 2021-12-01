@@ -28,3 +28,13 @@
         cursor: pointer;
     }
 }
+
+@media screen and (max-width: 768px){
+    .time-controller{
+        width: 90%;
+    }
+
+    .play-controller{
+        width: 60%;
+    }
+}
