@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/tunite/static/css/main.388d95fc.chunk.css",
+    "main.js": "/tunite/static/js/main.b0552769.chunk.js",
+    "main.js.map": "/tunite/static/js/main.b0552769.chunk.js.map",
+    "runtime-main.js": "/tunite/static/js/runtime-main.5800d4bf.js",
+    "runtime-main.js.map": "/tunite/static/js/runtime-main.5800d4bf.js.map",
+    "static/js/2.7a596791.chunk.js": "/tunite/static/js/2.7a596791.chunk.js",
+    "static/js/2.7a596791.chunk.js.map": "/tunite/static/js/2.7a596791.chunk.js.map",
+    "static/js/3.19c70495.chunk.js": "/tunite/static/js/3.19c70495.chunk.js",
+    "static/js/3.19c70495.chunk.js.map": "/tunite/static/js/3.19c70495.chunk.js.map",
+    "index.html": "/tunite/index.html",
+    "static/css/main.388d95fc.chunk.css.map": "/tunite/static/css/main.388d95fc.chunk.css.map",
+    "static/js/2.7a596791.chunk.js.LICENSE.txt": "/tunite/static/js/2.7a596791.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5800d4bf.js",
+    "static/js/2.7a596791.chunk.js",
+    "static/css/main.388d95fc.chunk.css",
+    "static/js/main.b0552769.chunk.js"
+  ]
+}
