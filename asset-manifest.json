@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tunite/static/css/main.c3c92676.chunk.css",
-    "main.js": "/tunite/static/js/main.8af194bb.chunk.js",
-    "main.js.map": "/tunite/static/js/main.8af194bb.chunk.js.map",
+    "main.js": "/tunite/static/js/main.4266ce82.chunk.js",
+    "main.js.map": "/tunite/static/js/main.4266ce82.chunk.js.map",
     "runtime-main.js": "/tunite/static/js/runtime-main.5800d4bf.js",
     "runtime-main.js.map": "/tunite/static/js/runtime-main.5800d4bf.js.map",
     "static/js/2.7a596791.chunk.js": "/tunite/static/js/2.7a596791.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.5800d4bf.js",
     "static/js/2.7a596791.chunk.js",
     "static/css/main.c3c92676.chunk.css",
-    "static/js/main.8af194bb.chunk.js"
+    "static/js/main.4266ce82.chunk.js"
   ]
 }
