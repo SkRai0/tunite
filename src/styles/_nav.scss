@@ -17,6 +17,15 @@
     }
 }
 
+.logo{
+    width: 2rem;
+}
+
+.logo-brand{
+    display: flex;
+    padding: 1rem;
+}
+
 @media screen and (max-width: 768px){
     .nav{
         button{
