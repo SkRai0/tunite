@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/tunite/static/css/main.c3c92676.chunk.css",
-    "main.js": "/tunite/static/js/main.4266ce82.chunk.js",
-    "main.js.map": "/tunite/static/js/main.4266ce82.chunk.js.map",
+    "main.css": "/tunite/static/css/main.b0e376ab.chunk.css",
+    "main.js": "/tunite/static/js/main.3bc08397.chunk.js",
+    "main.js.map": "/tunite/static/js/main.3bc08397.chunk.js.map",
     "runtime-main.js": "/tunite/static/js/runtime-main.5800d4bf.js",
     "runtime-main.js.map": "/tunite/static/js/runtime-main.5800d4bf.js.map",
     "static/js/2.7a596791.chunk.js": "/tunite/static/js/2.7a596791.chunk.js",
@@ -10,13 +10,14 @@
     "static/js/3.19c70495.chunk.js": "/tunite/static/js/3.19c70495.chunk.js",
     "static/js/3.19c70495.chunk.js.map": "/tunite/static/js/3.19c70495.chunk.js.map",
     "index.html": "/tunite/index.html",
-    "static/css/main.c3c92676.chunk.css.map": "/tunite/static/css/main.c3c92676.chunk.css.map",
-    "static/js/2.7a596791.chunk.js.LICENSE.txt": "/tunite/static/js/2.7a596791.chunk.js.LICENSE.txt"
+    "static/css/main.b0e376ab.chunk.css.map": "/tunite/static/css/main.b0e376ab.chunk.css.map",
+    "static/js/2.7a596791.chunk.js.LICENSE.txt": "/tunite/static/js/2.7a596791.chunk.js.LICENSE.txt",
+    "static/media/Tunite-Logo.72c9b8f8.png": "/tunite/static/media/Tunite-Logo.72c9b8f8.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5800d4bf.js",
     "static/js/2.7a596791.chunk.js",
-    "static/css/main.c3c92676.chunk.css",
-    "static/js/main.4266ce82.chunk.js"
+    "static/css/main.b0e376ab.chunk.css",
+    "static/js/main.3bc08397.chunk.js"
   ]
 }
